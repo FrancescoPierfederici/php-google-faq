@@ -70,13 +70,6 @@ $data = [
     
 ];
 
-foreach($data as $date => $arraydata) {
-    
-    foreach($arraydata as $singlepost){
-        echo $singlepost."<br>";
-        
-    }
-}
 
 ?>
 
@@ -90,6 +83,18 @@ foreach($data as $date => $arraydata) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php 
+
+foreach($data as $date => $arraydata) {
     
+    foreach($arraydata as $singlepost){
+        echo $singlepost."<br>";
+        
+    }
+}
+
+
+
+?>
 </body>
 </html>
